@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret Santa</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 2rem; line-height: 1.4; }
+      textarea, input, button { font-size: 16px; }
+      textarea { width: 100%; height: 160px; }
+      .row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+      .card { border: 1px solid #ddd; border-radius: 10px; padding: 1rem; margin: 1rem 0; }
+      .muted { color: #666; font-size: 0.9rem; }
+      .error { color: #b00020; }
+      .success { color: #116611; }
+      .btn { padding: 0.5rem 0.9rem; border: 1px solid #999; border-radius: 8px; background: #fafafa; cursor: pointer; }
+      .btn:disabled { opacity: 0.6; cursor: not-allowed; }
+      .input { padding: 0.5rem; border: 1px solid #ccc; border-radius: 8px; }
+      a { word-break: break-all; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
